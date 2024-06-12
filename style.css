@@ -10,7 +10,7 @@
 }
 
 .button{
-    font-style: 16px;
+    font-size: 20px;
     padding: 10px 20px;
     border: 0;
     background-color: #000;
@@ -18,9 +18,16 @@
     font-weight: bold;
     cursor: pointer;
     border-radius: 5px;
+    margin: 0 5px;
 }
 
 .button:hover{
     opacity:0.8;
     transition:opacity .25s;
+}
+
+.message{
+    font-size: 100px;
+    text-align: center;
+    color: red;
 }
